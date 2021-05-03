@@ -16,7 +16,14 @@ int main()
 
     printf("%d\n",a);
     printf("%f\n",b);
-    printf("result = %.2f\n",sum);
+    printf("result = %.2f\n\n",sum);
+
+    // หาค่ามากที่สุด
+    if (c>=b){
+        printf("Max = %.2f",c);
+    }else{
+        printf("Max %.2f",b);
+    }
 
     return 0;
 }
